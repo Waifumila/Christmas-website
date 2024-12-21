@@ -1,0 +1,76 @@
+/* Basic styling for the website */
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('PHOTO-2024-12-20-19-37-56.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 100px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    position: absolute;
+}
+
+.heading {
+    font-size: 3rem;
+    color: #FFFF99;
+    margin-bottom: 20px;
+}
+
+.welcome-message {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #FF4C4C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #FF2A2A;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #FFD700;
+}
+
+/* Bible Verse Style */
+#bibleVerse {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #FFFF99;
+}
+
+.imgs{
+    height: 100%;
+    width: 100%;
+}
